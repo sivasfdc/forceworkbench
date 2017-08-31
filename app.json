@@ -12,7 +12,7 @@
         "forceworkbench__csrfSecret__default": { "generator":"secret" },
         "forceworkbench__rc4Secret__default": { "generator":"secret" },
         "forceworkbench__logHandler__default": "stderr",
-        "forceworkbench__loginCsrfEnabled__default": "true",
+        "forceworkbench__loginCsrfEnabled__default": "false",
         "forceworkbench__streamingAdviceTimeout__default": "10000"
     },
     "success_url": "/login.php"
