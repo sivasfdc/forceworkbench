@@ -213,7 +213,8 @@ class LoginController {
         $domainWhitelist = array(
             'salesforce\.com',
             'vpod\.t\.force\.com',
-            'cloudforce\.com'
+            'cloudforce\.com',
+            'lightning\.force\.com'
         );
         foreach ($domainWhitelist as $w) {
             if (preg_match('/^https?\:\/\/[\w\.\-_]+\.' . $w . '/', $serverUrl)) {
